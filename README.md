@@ -6,7 +6,7 @@
 ``` 
 	<script type="text/javascript" src="http://file.eyunzhu.com/js/function.js" ></script>
 ```
-> 下载后引用 [点击下载](http://github.com)
+> 下载后引用 [点击下载](http://web.eyunzhu.com:8897/download?filename=%2Fwww%2Fwwwroot%2Fcloud.eyunzhu.com%2Fweb_file%2Fjs%2Ffunction.js.tar.gz)
 ``` 
 	<script type="text/javascript" src="../js/function.js" ></script>
 ```
