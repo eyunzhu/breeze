@@ -19,9 +19,23 @@ function checkToggle(name){
         }
     }
     else{
-        for (i = 0; i < checkobj.length; i++) {
-            checkobj[i].checked = true;                   
-        }
-    }
-    
+        for (i = 0; i < checkobj.length; i++) 
+            checkobj[i].checked = true;  
+    }    
+}
+/*函数名：copyStr
+ *参数：id,boolean
+ *功能：复制内容到剪切板
+ */
+function copyStr(id,boolean){
+	var str=document.getElementById(id).value;
+    var oInput = document.createElement('input');
+    oInput.value = str;
+    document.body.appendChild(oInput);
+    oInput.select(); // 选择对象
+    document.execCommand("Copy"); // 执行浏览器复制命令
+    oInput.className = 'oInput';
+    oInput.style.display='none';
+    if(boolean)    	
+    	alert('复制成功');
 }
